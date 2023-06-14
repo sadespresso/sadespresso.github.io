@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Helvetica+Neue');
+@import url('./sadespresso.css');
+
+@media (prefers-reduced-motion) {
+	* {
+		transition: none !important;
+		transition-duration: 0ms !important;
+	}
+}
+
+@font-face {
+	font-family: 'Gnomon*';
+	src: url('/fonts/Gnomon-Foreground.ttf');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 16px;
+	font-family: 'Inter', 'Montserrat', 'Helvetica', sans-serif;
+
+	--color-background: #fcf2ff;
+	--color-foreground: #0a000d;
+	--color-primary: #8500a6;
+	--color-primary-lighter: #9e01c6;
+	--color-accent: #f5ccff;
+	--color-title: #33004f;
+
+	--color-selection: rgba(133, 0, 166, 0.2);
+
+	--navbar-font-size: 2rem;
+	--navbar-vertical-padding: 1.25rem;
+
+	--navbar-height: calc(var(--navbar-font-size) + calc(var(--navbar-vertical-padding) * 2));
+	--page-height: calc(100vh - var(--navbar-height));
+
+	color-scheme: only light;
+
+	background-color: var(--background-color);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	width: 100%;
+
+	min-height: 100vh;
+}
+
+main {
+	min-height: 100vh;
+	width: 100%;
+}
+
+nav + main {
+	margin-top: var(--navbar-height);
+	min-height: var(--page-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Gnomon*';
+	color: var(--color-title);
+	font-weight: normal;
+}
+
+h2,
+h3 {
+	font-size: 2rem;
+}
+
+a,
+a:visited {
+	display: contents;
+	color: var(--color-primary);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.single {
+	display: inline-block;
+	font-weight: normal;
+}
+
+a.single:hover,
+a.single:active,
+a.single:focus {
+	color: var(--color-primary-lighter);
+}
+
+a:hover > *,
+a:active > *,
+a:focus > * {
+	filter: brightness(0.9);
+}
+
+a:focus-visible {
+	outline: 2px solid var(--color-primary);
+}
+
+p,
+span {
+	color: inherit;
+}
+
+.justify {
+	text-align: justify;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+
+.expand-width {
+	width: 100%;
+}
+
+img:not(.draggableImage) {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+
+.viewboxPadded {
+	--viewbox-padding-vertical: 4rem;
+	--viewbox-padding-horizontal: 6rem;
+
+	padding: var(--viewbox-padding-vertical) var(--viewbox-padding-horizontal);
+}
+
+@media only screen and (min-width: 1536px) {
+	.viewboxPadded {
+		--viewbox-padding-horizontal: 12rem;
+		--viewbox-padding-vertical: 6rem;
+	}
+
+	i.h2d {
+		height: 3.5rem;
+	}
+}
+@media only screen and (max-width: 1080px) {
+	.viewboxPadded {
+		--viewbox-padding-horizontal: 1.5rem;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.viewboxPadded {
+		--viewbox-padding-horizontal: 1rem;
+	}
+}
+
+*::selection {
+	color: inherit;
+	background-color: var(--color-selection);
+}
+
+/* width */
+*::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+	background: var(--color-background);
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+	background: var(--color-primary);
+	border-radius: 2px;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+	background: var(--color-primary-lighter);
+}
