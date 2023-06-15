@@ -32,6 +32,7 @@
 				<Icon {icon} />
 				{#if !compact}
 					<Spacer />
+					<slot />
 				{/if}
 			</Flexbox>
 		</Card>
