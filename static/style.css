@@ -82,7 +82,6 @@ h3 {
 
 a,
 a:visited {
-	display: contents;
 	color: var(--color-primary);
 	font-weight: bold;
 	text-decoration: none;
@@ -109,6 +108,12 @@ a:focus-visible {
 	outline: 2px solid var(--color-primary);
 }
 
+a.disabled,
+button.disabled {
+	cursor: not-allowed;
+	filter: grayscale();
+}
+
 p,
 span {
 	color: inherit;
@@ -122,6 +127,9 @@ span {
 }
 .right {
 	text-align: right;
+}
+.center {
+	text-align: center;
 }
 
 .expand-width {

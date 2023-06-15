@@ -1,10 +1,12 @@
 <script>
-	import Card from '../../Card.svelte';
-	import ContactListTile from '../../ContactListTile.svelte';
-	import Flexbox from '../../Flexbox.svelte';
-	import Group from '../../Group.svelte';
-	import Spacer from '../../Spacer.svelte';
-	import XLink from '../../XLink.svelte';
+	import Card from '$lib/components/Card.svelte';
+	import ContactListTile from '$lib/components/ContactListTile.svelte';
+	import Flexbox from '$lib/components/Flexbox.svelte';
+	import Group from '$lib/components/Group.svelte';
+	import Spacer from '$lib/components/Spacer.svelte';
+	import XLink from '$lib/components/XLink.svelte';
+	import WrappedTranslationMulti from '$lib/components/WrappedTranslationMulti.svelte';
+	import LL from '$lib/i18n/i18n-svelte';
 </script>
 
 <Card flex="1" type="large">
@@ -13,10 +15,13 @@
 			<h3>Gegee Guitar</h3>
 			<Spacer />
 			<p class="left expand-width">
-				Gegee Guitar is a guitar tab platform inspired by
-				<XLink href="https://www.ultimate-guitar.com/">Ultimate Guitar</XLink>. Anyone can upload guitar tabs. Available
-				on web, Android, and iOS. Built /w <XLink href="https://firebase.google.com/">Firebase</XLink> (backend), <XLink
-					href="https://flutter.dev/">Flutter</XLink> (mobile), <XLink href="https://svelte.dev/">Svelte</XLink> (web).
+				<WrappedTranslationMulti message={$LL.projects.projects.gegeeGuitar.desc()}>
+					<svelte:fragment slot="1"
+						><XLink href="https://www.ultimate-guitar.com/">Ultimate Guitar</XLink></svelte:fragment>
+					<svelte:fragment slot="2"><XLink href="https://firebase.google.com/">Firebase</XLink></svelte:fragment>
+					<svelte:fragment slot="3"><XLink href="https://flutter.dev/">Flutter</XLink></svelte:fragment>
+					<svelte:fragment slot="4"><XLink href="https://svelte.dev/">Svelte</XLink></svelte:fragment>
+				</WrappedTranslationMulti>
 			</p>
 		</Group>
 		<Spacer />

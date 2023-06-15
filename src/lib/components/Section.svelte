@@ -2,9 +2,10 @@
 	import Spacer from './Spacer.svelte';
 
 	export let id: string;
+	export let fullHeight = false;
 </script>
 
-<section {id} class="viewboxPadded">
+<section {id} class="viewboxPadded" class:fullHeight>
 	{#if $$slots.title}
 		<h2>
 			<slot name="title">Lorem Ipsum</slot>
@@ -25,5 +26,9 @@
 		text-align: center;
 
 		/* height: var(--page-height); */
+	}
+
+	.fullHeight {
+		height: var(--page-height);
 	}
 </style>

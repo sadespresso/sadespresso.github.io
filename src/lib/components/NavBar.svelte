@@ -1,7 +1,11 @@
+<script>
+	import LL from '$lib/i18n/i18n-svelte';
+</script>
+
 <nav class="viewboxPadded">
-	<a class="single" href="#home">home</a>
-	<a class="single" href="#projects">projects</a>
-	<a class="single" href="#contact">contact</a>
+	<a class="single" href="#home">{$LL.home[0]()}</a>
+	<a class="single" href="#projects">{$LL.projects[0]()}</a>
+	<a class="single" href="#contact">{$LL.contact[0]()}</a>
 </nav>
 
 <style>

@@ -1,12 +1,19 @@
 <script>
-	import Section from '../Section.svelte';
-	import Spacer from '../Spacer.svelte';
+	import Section from '$lib/components/Section.svelte';
+	import Spacer from '$lib/components/Spacer.svelte';
+	import LL from '$lib/i18n/i18n-svelte';
 </script>
 
-<Section id="home">
+<Section id="home" fullHeight>
 	<img src="/assets/memoji.png" alt="Memoji version of Batmend Ganbaatar" />
 	<Spacer v={2} />
-	<p>Hi! I'm Batmend Ganbaatar,<br />an aspiring young software developer</p>
+	<p class="center">
+		{$LL.home.hello()}
+	</p>
+	<p>
+		📍
+		{$LL.home.basedIn()}
+	</p>
 </Section>
 
 <style>

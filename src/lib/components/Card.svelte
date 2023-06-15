@@ -11,6 +11,16 @@
 <style>
 	.Card {
 		background-color: var(--color-accent);
+		text-align: left;
+	}
+
+	.Card :global(h1),
+	.Card :global(h2),
+	.Card :global(h3),
+	.Card :global(h4),
+	.Card :global(h5),
+	.Card :global(h6) {
+		text-align: center;
 	}
 
 	.Card :global(.Card) {
