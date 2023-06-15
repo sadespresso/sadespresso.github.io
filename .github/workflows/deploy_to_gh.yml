@@ -19,10 +19,9 @@ jobs:
         with:
           version: 7
       - run: pnpm install --no-frozen-lockfile
-      - name: Set git repo and bot account
+      - name: Deploy using bot
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+          pnpm gh-pages-actions
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: pnpm gh-pages
