@@ -1,4 +1,4 @@
-export const availableLanguages = ['en', 'mn'] as const;
+export const availableLanguages = ['en' /**'mn' */] as const;
 export type AvailableLanguage = (typeof availableLanguages)[number];
 export const availableThemes = ['auto', 'light', 'dark'] as const;
 export type AvailableTheme = (typeof availableThemes)[number];
@@ -28,8 +28,8 @@ export class LocalPreferences {
 	}
 
 	public availableLanguagesNames: Record<AvailableLanguage, string> = {
-		en: 'English 🇬🇧',
-		mn: 'Монгол хэл 🇲🇳'
+		en: 'English 🇬🇧'
+		// mn: 'Монгол хэл 🇲🇳'
 	};
 
 	getLang(): AvailableLanguage {
