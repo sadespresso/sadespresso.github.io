@@ -23,6 +23,10 @@ type RootTranslation = {
 		 */
 		title: string
 		/**
+		 * w​e​l​c​o​m​e
+		 */
+		hi: string
+		/**
 		 * H​i​!​ ​I​'​m​ ​B​a​t​m​e​n​d​ ​G​a​n​b​a​a​t​a​r​,​
 	​a​n​ ​a​s​p​i​r​i​n​g​ ​y​o​u​n​g​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​e​r​.
 		 */
@@ -98,6 +102,10 @@ export type TranslationFunctions = {
 		 * Home
 		 */
 		title: () => LocalizedString
+		/**
+		 * welcome
+		 */
+		hi: () => LocalizedString
 		/**
 		 * Hi! I'm Batmend Ganbaatar,
 	an aspiring young software developer.

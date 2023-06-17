@@ -4,6 +4,7 @@ const en = {
 	home: {
 		0: 'home',
 		title: 'Home',
+		hi: "welcome",
 		hello: "Hi! I'm Batmend Ganbaatar,\nan aspiring young software developer.",
 		basedIn: 'Ulaanbaatar, Mongolia'
 	},
