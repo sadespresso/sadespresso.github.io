@@ -4,7 +4,9 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev --open",
+		"dev:host": "vite dev --open --host",
 		"start": "run-p dev typesafe-i18n",
+		"start:host": "run-p dev:host typesafe-i18n",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
