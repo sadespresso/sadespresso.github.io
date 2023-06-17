@@ -5,7 +5,7 @@
 	import LL from '$lib/i18n/i18n-svelte';
 </script>
 
-<Card flex="1" type="large">
+<Card type="large">
 	<h3>cuko</h3>
 	<Spacer />
 	<p class="expand-width left">

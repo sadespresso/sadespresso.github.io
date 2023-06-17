@@ -9,7 +9,7 @@
 	import LL from '$lib/i18n/i18n-svelte';
 </script>
 
-<Card flex="1" type="large">
+<Card type="large">
 	<Flexbox direction="column" justify="space-between">
 		<Group>
 			<h3>Gegee Guitar</h3>
