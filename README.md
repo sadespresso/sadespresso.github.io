@@ -1,38 +1,37 @@
-# create-svelte
+<div style="text-align:center;">
+<h3 align="center">Hi! I'm Batmend Ganbaatar,</h3>
+<p align="center"><img src="https://user-images.githubusercontent.com/51638223/226281237-a1e71cc4-a117-4cfe-8a05-4b8436ffed02.PNG" alt="Memoji version of Batmend Ganbaatar" width="128" height="128"></p>
+<h3 align="center">an aspiring young software developer</h3>
+</div>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## 🧑 About me
 
-## Creating a project
+📍 Ulaanbaatar, Mongolia <br />
+🧿 ISFP-T <br />
+☕ Iced coffee enjoyer
 
-If you're seeing this, you've probably already done this step. Congrats!
+## ⚙️ What do I use
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+* [Flutter](https://flutter.dev/) & [Dart](https://dart.dev/)
+* [Node.js](https://nodejs.org)
+* [TypeScript](https://www.typescriptlang.org/)
+* [NestJS](https://nestjs.com/)
+* [Svelte](https://svelte.dev/) & [SvelteKit](https://kit.svelte.dev/)
+* [Docker](https://www.docker.com/)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+<!-- ## 💼 My projects
 
-## Developing
+### Gegee Guitar
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+A free guitar tab platform where anyone can use & upload tabs. Available on Web, Android, and iOS. See it 
 
-```bash
-npm run dev
+### moment_dart
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+[moment.js](https://momentjs.com/) inspired DateTime manipulation/display library. See it on [pub.dev](https://pub.dev/packages/moment_dart) -->
 
-## Building
 
-To create a production version of your app:
+<hr>
 
-```bash
-npm run build
-```
+## ✨ Connect with me
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+[![batmend@gege.mn](https://img.shields.io/badge/batmend%40gege.mn-8500a6?style=for-the-badge&logo=maildotru&logoColor=f5f6fa)](mailto:batmend@gege.mn) [![sadespresso_](https://img.shields.io/badge/sadespresso__-1d9bf0?style=for-the-badge&logo=twitter&logoColor=f5f6fa)](https://twitter.com/sadespresso_) [![sadespress0](https://img.shields.io/badge/sadespress0-2374E1?style=for-the-badge&logo=facebook&logoColor=f5f6fa)](https://www.facebook.com/sadespress0/) [![yourstepbf](https://img.shields.io/badge/yourstepbf-E1306C?style=for-the-badge&logo=instagram&logoColor=f5f6fa)](https://www.instagram.com/yourstepbf)
