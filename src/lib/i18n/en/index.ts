@@ -4,7 +4,7 @@ const en = {
 	home: {
 		0: 'home',
 		title: 'Home',
-		hi: "welcome",
+		hi: 'welcome',
 		hello: "Hi! I'm Batmend Ganbaatar,\nan aspiring young software developer.",
 		basedIn: 'Ulaanbaatar, Mongolia'
 	},
@@ -27,7 +27,7 @@ const en = {
 	contact: {
 		0: 'contact',
 		title: 'Contact me',
-		coffeeInvitation: 'If you wanna grab coffee, hit me up on any of my socials.'
+		coffeeInvitation: 'If you wanna grab coffee, hit me up on any of my socials ✌️✌️'
 	},
 	footer: {
 		rights: `All rights reserved • ${new Date().getFullYear()}`

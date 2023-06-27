@@ -18,6 +18,8 @@
 		border: none;
 		border-radius: 50%;
 		background-color: transparent;
+
+		color: var(--color-primary);
 	}
 
 	button:focus-visible {

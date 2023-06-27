@@ -6,6 +6,7 @@
 		| 'octocat'
 		| 'twitter'
 		| 'web'
+		| 'menu'
 		| 'appstore'
 		| 'playstore'
 		| 'pub-dot-dev'

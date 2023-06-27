@@ -80,7 +80,7 @@ type RootTranslation = {
 		 */
 		title: string
 		/**
-		 * I​f​ ​y​o​u​ ​w​a​n​n​a​ ​g​r​a​b​ ​c​o​f​f​e​e​,​ ​h​i​t​ ​m​e​ ​u​p​ ​o​n​ ​a​n​y​ ​o​f​ ​m​y​ ​s​o​c​i​a​l​s​.
+		 * I​f​ ​y​o​u​ ​w​a​n​n​a​ ​g​r​a​b​ ​c​o​f​f​e​e​,​ ​h​i​t​ ​m​e​ ​u​p​ ​o​n​ ​a​n​y​ ​o​f​ ​m​y​ ​s​o​c​i​a​l​s​ ​✌​️​✌​️
 		 */
 		coffeeInvitation: string
 	}
@@ -160,7 +160,7 @@ export type TranslationFunctions = {
 		 */
 		title: () => LocalizedString
 		/**
-		 * If you wanna grab coffee, hit me up on any of my socials.
+		 * If you wanna grab coffee, hit me up on any of my socials ✌️✌️
 		 */
 		coffeeInvitation: () => LocalizedString
 	}

@@ -1,17 +1,18 @@
 @font-face {
-	font-family: 'sadespresso Icons';
-	src: url('/fonts/sadespresso.ttf?p81lqk') format('truetype'), url('/fonts/sadespresso.woff?p81lqk') format('woff'),
-		url('/fonts/sadespresso.svg?p81lqk#sadespresso') format('svg');
+	font-family: 'sadespresso-Icons';
+	src: url('/fonts/sadespresso-Icons.ttf?kk48fj') format('truetype'),
+		url('/fonts/sadespresso-Icons.woff?kk48fj') format('woff'),
+		url('/fonts/sadespresso-Icons.svg?kk48fj#sadespresso-Icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
 }
 
 .sadespresso-icons,
-[class^='icon-'],
-[class*=' icon-'] {
+[class^='sadespresso-icons-'],
+[class*=' sadespresso-icons-'] {
 	/* use !important to prevent issues with browser extensions that change fonts */
-	font-family: 'sadespresso Icons' !important;
+	font-family: 'sadespresso-Icons' !important;
 	speak: never;
 	font-style: normal;
 	font-weight: normal;
@@ -32,31 +33,32 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-
-	color: var(--color-primary);
 }
 
-.icon-facebook:before {
+.sadespresso-icons-menu:before {
+	content: '\e900';
+}
+.sadespresso-icons-facebook:before {
 	content: '\66';
 }
-.icon-instagram:before {
+.sadespresso-icons-instagram:before {
 	content: '\1f4f7';
 }
-.icon-location:before {
+.sadespresso-icons-location:before {
 	content: '\1f4cd';
 }
-.icon-octocat:before {
+.sadespresso-icons-octocat:before {
 	content: '\1f408';
 }
-.icon-twitter:before {
+.sadespresso-icons-twitter:before {
 	content: '\1f426';
 }
-.icon-web:before {
+.sadespresso-icons-web:before {
 	content: '\1f310';
 }
-.icon-appstore:before {
+.sadespresso-icons-appstore:before {
 	content: '\1f34e';
 }
-.icon-email:before {
+.sadespresso-icons-email:before {
 	content: '\1f4e7';
 }

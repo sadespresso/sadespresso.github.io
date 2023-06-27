@@ -21,7 +21,7 @@
 	<span class="mobile">
 		{$LL.home.hi()}
 	</span>
-	<IconButton classNames="mobile" icon={'web'} on:click={showModal} />
+	<IconButton classNames="mobile" icon={'menu'} on:click={showModal} />
 </nav>
 
 <Modal bind:show={$modalShown}>

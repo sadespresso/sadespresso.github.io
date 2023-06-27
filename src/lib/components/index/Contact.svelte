@@ -26,7 +26,9 @@
 	blockquote {
 		display: inline-block;
 
-		opacity: 0.66;
+		color: var(--color-foreground-soft);
+
 		font-size: small;
+		font-weight: 600;
 	}
 </style>

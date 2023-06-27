@@ -20,10 +20,13 @@
 
 :root {
 	font-size: 16px;
+	line-height: 19px;
+
 	font-family: 'Inter', 'Montserrat', 'Helvetica', sans-serif;
 
 	--color-background: #fcf2ff;
 	--color-foreground: #0a000d;
+	--color-foreground-soft: #6a666d;
 	--color-primary: #8500a6;
 	--color-primary-lighter: #9e01c6;
 	--color-accent: #f5ccff;
@@ -70,8 +73,11 @@ h4,
 h5,
 h6 {
 	font-family: 'Gnomon*';
-	color: var(--color-title);
 	font-weight: normal;
+
+	color: var(--color-title);
+
+	line-height: calc(1em * 1.1);
 }
 
 h2,
@@ -116,6 +122,10 @@ button.disabled {
 p,
 span {
 	color: inherit;
+}
+
+p {
+	line-height: calc(1em * 1.33);
 }
 
 .justify {
