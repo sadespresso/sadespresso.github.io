@@ -34,13 +34,13 @@
 					icon="playstore"
 					href="https://play.google.com/store/apps/details?id=mn.theirontnt.gegeeguitar"
 					flex="1">
-					<span>Play Store</span>
+					<span style="width: 8ch">Play Store</span>
 				</ContactListTile>
 				<ContactListTile
 					icon="appstore"
 					href="https://apps.apple.com/mn/app/%D0%B3%D1%8D%D0%B3%D1%8D%D1%8D-%D0%B3%D0%B8%D1%82%D0%B0%D1%80/id1603042832?platform=iphone"
 					flex="1">
-					<span>App Store</span>
+					<span style="width: 8ch">App Store</span>
 				</ContactListTile>
 			</Flexbox>
 		</Flexbox>
