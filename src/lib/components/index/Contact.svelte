@@ -12,7 +12,7 @@
 	<Flexbox direction={'column'} rowGap="1rem">
 		<ContactListTile icon="email" href="mailto:batmend@gege.mn">batmend@gege.mn</ContactListTile>
 		<ContactListTile icon="octocat" href="https://github.com/sadespresso">sadespresso</ContactListTile>
-		<ContactListTile icon="instagram" href="https://www.instagram.com/yourstepbf/">yourstepbf</ContactListTile>
+		<ContactListTile icon="instagram" href="https://www.instagram.com/sadespresso/">sadespresso</ContactListTile>
 		<ContactListTile icon="twitter" href="https://twitter.com/sadespresso_">sadespresso_</ContactListTile>
 		<ContactListTile icon="facebook" href="https://www.facebook.com/sadespress0/">sadespress0</ContactListTile>
 		<Spacer v={2} />
