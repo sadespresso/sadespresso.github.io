@@ -11,10 +11,16 @@ const en = {
 	projects: {
 		0: 'projects',
 		title: 'My work',
+		seeOnPubDev: 'See on pub.dev',
+		seeOnGitHub: 'Visit project on GitHub',
 		projects: {
 			gegeeGuitar: {
 				title: 'Gegee Guitar',
-				desc: 'Gegee Guitar is a guitar tab platform inspired by <> 🎸. Anyone can upload guitar tabs. Available on web, Android, and iOS. Built /w <> (backend), <> (mobile), <> (web).'
+				desc: 'Gegee Guitar is a guitar tab platform inspired by <><> 🎸. Anyone can upload guitar tabs. Available on web, Android, and iOS.'
+			},
+			flow: {
+				title: 'Flow',
+				desc: 'A free and open-source expense tracker. You can test alpha builds right now. Will be available on Android, iOS, and more. Built /w <><> 🤍.'
 			},
 			moment_dart: {
 				desc: 'A zero-dependency Dart library for DateTime. Similar popular library would be <> 🕒.'

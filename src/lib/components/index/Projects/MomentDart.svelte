@@ -18,5 +18,10 @@
 		</WrappedTranslationMulti>
 	</p>
 	<Spacer />
-	<ContactListTile icon="pub-dot-dev" href="https://pub.dev/packages/moment_dart">See on pub.dev</ContactListTile>
+	<ContactListTile icon="octocat" href="https://github.com/sadespresso/moment_dart">
+		<span>{$LL.projects.seeOnGitHub()}</span>
+	</ContactListTile>
+	<Spacer />
+	<ContactListTile icon="pub-dot-dev" href="https://pub.dev/packages/moment_dart"
+		>{$LL.projects.seeOnPubDev()}</ContactListTile>
 </Card>

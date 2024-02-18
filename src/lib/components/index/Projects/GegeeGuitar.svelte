@@ -5,7 +5,7 @@
 	import Group from '$lib/components/Group.svelte';
 	import Spacer from '$lib/components/Spacer.svelte';
 	import XLink from '$lib/components/XLink.svelte';
-	import WrappedTranslationMulti from '$lib/components/WrappedTranslationMulti.svelte';
+	import WrappedTranslation from '$lib/components/WrappedTranslation.svelte';
 	import LL from '$lib/i18n/i18n-svelte';
 </script>
 
@@ -15,13 +15,9 @@
 			<h3>Gegee Guitar</h3>
 			<Spacer />
 			<p class="left expand-width">
-				<WrappedTranslationMulti message={$LL.projects.projects.gegeeGuitar.desc()}>
-					<svelte:fragment slot="1"
-						><XLink href="https://www.ultimate-guitar.com/">Ultimate Guitar</XLink></svelte:fragment>
-					<svelte:fragment slot="2"><XLink href="https://firebase.google.com/">Firebase</XLink></svelte:fragment>
-					<svelte:fragment slot="3"><XLink href="https://flutter.dev/">Flutter</XLink></svelte:fragment>
-					<svelte:fragment slot="4"><XLink href="https://svelte.dev/">Svelte</XLink></svelte:fragment>
-				</WrappedTranslationMulti>
+				<WrappedTranslation message={$LL.projects.projects.gegeeGuitar.desc()}>
+					<XLink href="https://www.ultimate-guitar.com/">Ultimate Guitar</XLink>
+				</WrappedTranslation>
 			</p>
 		</Group>
 		<Spacer />
@@ -31,7 +27,7 @@
 			</ContactListTile>
 			<Flexbox direction="row" colGap="1rem" rowGap="1rem" expand>
 				<ContactListTile
-					icon="playstore"
+					icon="googleplay"
 					href="https://play.google.com/store/apps/details?id=mn.theirontnt.gegeeguitar"
 					flex="1">
 					<span style="width: 8ch; flex-grow: 1;">Play Store</span>

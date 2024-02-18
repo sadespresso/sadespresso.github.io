@@ -45,6 +45,14 @@ type RootTranslation = {
 		 * M​y​ ​w​o​r​k
 		 */
 		title: string
+		/**
+		 * S​e​e​ ​o​n​ ​p​u​b​.​d​e​v
+		 */
+		seeOnPubDev: string
+		/**
+		 * V​i​s​i​t​ ​p​r​o​j​e​c​t​ ​o​n​ ​G​i​t​H​u​b
+		 */
+		seeOnGitHub: string
 		projects: {
 			gegeeGuitar: {
 				/**
@@ -52,7 +60,17 @@ type RootTranslation = {
 				 */
 				title: string
 				/**
-				 * G​e​g​e​e​ ​G​u​i​t​a​r​ ​i​s​ ​a​ ​g​u​i​t​a​r​ ​t​a​b​ ​p​l​a​t​f​o​r​m​ ​i​n​s​p​i​r​e​d​ ​b​y​ ​<​>​ ​�​�​.​ ​A​n​y​o​n​e​ ​c​a​n​ ​u​p​l​o​a​d​ ​g​u​i​t​a​r​ ​t​a​b​s​.​ ​A​v​a​i​l​a​b​l​e​ ​o​n​ ​w​e​b​,​ ​A​n​d​r​o​i​d​,​ ​a​n​d​ ​i​O​S​.​ ​B​u​i​l​t​ ​/​w​ ​<​>​ ​(​b​a​c​k​e​n​d​)​,​ ​<​>​ ​(​m​o​b​i​l​e​)​,​ ​<​>​ ​(​w​e​b​)​.
+				 * G​e​g​e​e​ ​G​u​i​t​a​r​ ​i​s​ ​a​ ​g​u​i​t​a​r​ ​t​a​b​ ​p​l​a​t​f​o​r​m​ ​i​n​s​p​i​r​e​d​ ​b​y​ ​<​>​<​>​ ​�​�​.​ ​A​n​y​o​n​e​ ​c​a​n​ ​u​p​l​o​a​d​ ​g​u​i​t​a​r​ ​t​a​b​s​.​ ​A​v​a​i​l​a​b​l​e​ ​o​n​ ​w​e​b​,​ ​A​n​d​r​o​i​d​,​ ​a​n​d​ ​i​O​S​.
+				 */
+				desc: string
+			}
+			flow: {
+				/**
+				 * F​l​o​w
+				 */
+				title: string
+				/**
+				 * A​ ​f​r​e​e​ ​a​n​d​ ​o​p​e​n​-​s​o​u​r​c​e​ ​e​x​p​e​n​s​e​ ​t​r​a​c​k​e​r​.​ ​Y​o​u​ ​c​a​n​ ​t​e​s​t​ ​a​l​p​h​a​ ​b​u​i​l​d​s​ ​r​i​g​h​t​ ​n​o​w​.​ ​W​i​l​l​ ​b​e​ ​a​v​a​i​l​a​b​l​e​ ​o​n​ ​A​n​d​r​o​i​d​,​ ​i​O​S​,​ ​a​n​d​ ​m​o​r​e​.​ ​B​u​i​l​t​ ​/​w​ ​<​>​<​>​ ​�​�​.
 				 */
 				desc: string
 			}
@@ -86,7 +104,7 @@ type RootTranslation = {
 	}
 	footer: {
 		/**
-		 * A​l​l​ ​r​i​g​h​t​s​ ​r​e​s​e​r​v​e​d​ ​•​ ​2​0​2​3
+		 * A​l​l​ ​r​i​g​h​t​s​ ​r​e​s​e​r​v​e​d​ ​•​ ​2​0​2​4
 		 */
 		rights: string
 	}
@@ -125,6 +143,14 @@ export type TranslationFunctions = {
 		 * My work
 		 */
 		title: () => LocalizedString
+		/**
+		 * See on pub.dev
+		 */
+		seeOnPubDev: () => LocalizedString
+		/**
+		 * Visit project on GitHub
+		 */
+		seeOnGitHub: () => LocalizedString
 		projects: {
 			gegeeGuitar: {
 				/**
@@ -132,7 +158,17 @@ export type TranslationFunctions = {
 				 */
 				title: () => LocalizedString
 				/**
-				 * Gegee Guitar is a guitar tab platform inspired by <> 🎸. Anyone can upload guitar tabs. Available on web, Android, and iOS. Built /w <> (backend), <> (mobile), <> (web).
+				 * Gegee Guitar is a guitar tab platform inspired by <><> 🎸. Anyone can upload guitar tabs. Available on web, Android, and iOS.
+				 */
+				desc: () => LocalizedString
+			}
+			flow: {
+				/**
+				 * Flow
+				 */
+				title: () => LocalizedString
+				/**
+				 * A free and open-source expense tracker. You can test alpha builds right now. Will be available on Android, iOS, and more. Built /w <><> 🤍.
 				 */
 				desc: () => LocalizedString
 			}
@@ -166,7 +202,7 @@ export type TranslationFunctions = {
 	}
 	footer: {
 		/**
-		 * All rights reserved • 2023
+		 * All rights reserved • 2024
 		 */
 		rights: () => LocalizedString
 	}

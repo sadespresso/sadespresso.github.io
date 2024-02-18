@@ -8,7 +8,9 @@
 		| 'web'
 		| 'menu'
 		| 'appstore'
-		| 'playstore'
+		| 'discord'
+		| 'kofi'
+		| 'googleplay'
 		| 'pub-dot-dev'
 		| 'email';
 </script>
@@ -20,9 +22,7 @@
 	$: style = `font-size: ${size}rem`;
 </script>
 
-{#if icon == 'playstore'}
-	<img src="/assets/playstore.svg" alt="Google Play Store small logo" {style} />
-{:else if icon == 'pub-dot-dev'}
+{#if icon == 'pub-dot-dev'}
 	<img src="/assets/pub-dot-dev.svg" alt="pub.dev small logo" {style} />
 {:else}
 	<i class="sadespresso-icons" {style}>

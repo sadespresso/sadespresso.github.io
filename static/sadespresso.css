@@ -1,8 +1,8 @@
 @font-face {
 	font-family: 'sadespresso-Icons';
-	src: url('/fonts/sadespresso-Icons.ttf?kk48fj') format('truetype'),
-		url('/fonts/sadespresso-Icons.woff?kk48fj') format('woff'),
-		url('/fonts/sadespresso-Icons.svg?kk48fj#sadespresso-Icons') format('svg');
+	src: url('fonts/sadespresso-Icons.ttf?ll1jg6') format('truetype'),
+		url('fonts/sadespresso-Icons.woff?ll1jg6') format('woff'),
+		url('fonts/sadespresso-Icons.svg?ll1jg6#sadespresso-Icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
@@ -35,8 +35,17 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.sadespresso-icons-discord:before {
+	content: '\1f428';
+}
+.sadespresso-icons-kofi:before {
+	content: '\2615';
+}
+.sadespresso-icons-googleplay:before {
+	content: '\25b6';
+}
 .sadespresso-icons-menu:before {
-	content: '\e900';
+	content: '\2699';
 }
 .sadespresso-icons-facebook:before {
 	content: '\66';

@@ -207,3 +207,9 @@ img:not(.draggableImage) {
 *::-webkit-scrollbar-thumb:hover {
 	background: var(--color-primary-lighter);
 }
+
+#flow-logo {
+	width: 1em;
+	height: 1em;
+	border-radius: 0.25em;
+}
