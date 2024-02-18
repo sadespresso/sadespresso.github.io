@@ -37,7 +37,7 @@
 				<span>Visit project GitHub</span>
 			</ContactListTile>
 			<ContactListTile icon="🐨" href="https://discord.gg/Ndh9VDeZa4">
-				<span>Support me on Ko-fi</span>
+				<span>Join Flow Discord</span>
 			</ContactListTile>
 			<ContactListTile icon="kofi" href="https://ko-fi.com/sadespresso">
 				<span>Support me on Ko-fi</span>
