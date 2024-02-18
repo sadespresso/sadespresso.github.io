@@ -8,7 +8,7 @@
 		| 'web'
 		| 'menu'
 		| 'appstore'
-		| 'discord'
+		| '🐨'
 		| 'kofi'
 		| 'googleplay'
 		| 'pub-dot-dev'
