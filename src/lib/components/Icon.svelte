@@ -4,7 +4,9 @@
 		| 'instagram'
 		| 'location'
 		| 'octocat'
-		| 'twitter'
+		| 'bluesky'
+		| 'bsky'
+		| 'discord'
 		| 'web'
 		| 'menu'
 		| 'appstore'
@@ -19,20 +21,25 @@
 	export let icon: IconData;
 	export let size = 2;
 
-	$: style = `font-size: ${size}rem`;
+	$: style = `font-size: ${size}rem; font-family: 'sadespresso-Icons' !important;`;
 </script>
 
 {#if icon == 'pub-dot-dev'}
 	<img src="/assets/pub-dot-dev.svg" alt="pub.dev small logo" {style} />
 {:else}
-	<i class="sadespresso-icons" {style}>
+	<span class="sadespresso-icons" {style}>
 		{icon}
-	</i>
+	</span>
 {/if}
 
 <style>
 	img {
 		width: 1em;
 		height: 1em;
+	}
+
+	span {
+		font-style: normal !important;
+		font-weight: normal !important;
 	}
 </style>
