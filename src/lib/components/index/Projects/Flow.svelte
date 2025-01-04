@@ -27,7 +27,7 @@
 		<Flexbox direction="column" rowGap="1rem" colGap="1rem" justify="flex-end">
 			<Flexbox direction="row" colGap="1rem" rowGap="1rem" expand>
 				<ContactListTile icon="googleplay" href="https://play.google.com/store/apps/details?id=mn.flow.flow" flex="1">
-					<span style="width: 8ch; flex-grow: 1;">Play Store (Beta)</span>
+					<span style="width: 8ch; flex-grow: 1;">Play Store</span>
 				</ContactListTile>
 				<ContactListTile icon="appstore" href="https://testflight.apple.com/join/NH4ifijS" flex="1">
 					<span style="width: 8ch; flex-grow: 1;">TestFlight (Beta)</span>
@@ -36,7 +36,7 @@
 			<ContactListTile icon="octocat" href="https://github.com/flow-mn/flow">
 				<span>Visit project GitHub</span>
 			</ContactListTile>
-			<ContactListTile icon="🐨" href="https://discord.gg/Ndh9VDeZa4">
+			<ContactListTile icon="discord" href="https://discord.gg/Ndh9VDeZa4">
 				<span>Join Flow Discord</span>
 			</ContactListTile>
 			<ContactListTile icon="kofi" href="https://ko-fi.com/sadespresso">
