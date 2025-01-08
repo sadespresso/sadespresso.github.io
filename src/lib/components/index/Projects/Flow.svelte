@@ -26,11 +26,17 @@
 		<Spacer />
 		<Flexbox direction="column" rowGap="1rem" colGap="1rem" justify="flex-end">
 			<Flexbox direction="row" colGap="1rem" rowGap="1rem" expand>
-				<ContactListTile icon="googleplay" href="https://play.google.com/store/apps/details?id=mn.flow.flow" flex="1">
+				<ContactListTile
+					icon="googleplay"
+					href="https://play.google.com/store/apps/details?id=mn.flow.flow?utm_source=sadespresso_web"
+					flex="1">
 					<span style="width: 8ch; flex-grow: 1;">Play Store</span>
 				</ContactListTile>
-				<ContactListTile icon="appstore" href="https://testflight.apple.com/join/NH4ifijS" flex="1">
-					<span style="width: 8ch; flex-grow: 1;">TestFlight (Beta)</span>
+				<ContactListTile
+					icon="appstore"
+					href="https://apps.apple.com/mn/app/flow-expense-tracker/id6477741670?utm_source=sadespresso_web"
+					flex="1">
+					<span style="width: 8ch; flex-grow: 1;">App Store</span>
 				</ContactListTile>
 			</Flexbox>
 			<ContactListTile icon="octocat" href="https://github.com/flow-mn/flow">
