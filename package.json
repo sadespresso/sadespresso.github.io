@@ -14,8 +14,8 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"typesafe-i18n": "typesafe-i18n",
-		"gh-pages": "pnpm run build && pnpx gh-pages -d build -t true",
-		"gh-pages-actions": "pnpm run build && pnpx gh-pages -d build -t true -u \"github-actions-bot <support+actions@github.com>\""
+		"gh-pages": "pnpm run build && pnpx gh-pages -d build -t",
+		"gh-pages-actions": "pnpm run build && pnpx gh-pages -d build -t -u \"github-actions-bot <support+actions@github.com>\""
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.1.1",
