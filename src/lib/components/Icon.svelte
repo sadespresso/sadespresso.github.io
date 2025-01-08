@@ -11,7 +11,7 @@
 		| 'menu'
 		| 'appstore'
 		| '🐨'
-		| 'kofi'
+		| 'buymeacoffee'
 		| 'googleplay'
 		| 'pub-dot-dev'
 		| 'email';

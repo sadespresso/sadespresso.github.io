@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Card from '$lib/components/Card.svelte';
 	import ContactListTile from '$lib/components/ContactListTile.svelte';
 	import Flexbox from '$lib/components/Flexbox.svelte';
@@ -39,8 +39,8 @@
 			<ContactListTile icon="discord" href="https://discord.gg/Ndh9VDeZa4">
 				<span>Join Flow Discord</span>
 			</ContactListTile>
-			<ContactListTile icon="kofi" href="https://ko-fi.com/sadespresso">
-				<span>Support me on Ko-fi</span>
+			<ContactListTile icon="buymeacoffee" href="https://buymeacoffee.com/sadespresso">
+				<span>Buy me a coffee</span>
 			</ContactListTile>
 		</Flexbox>
 	</Flexbox>
