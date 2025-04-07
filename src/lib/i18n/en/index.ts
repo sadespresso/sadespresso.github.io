@@ -20,13 +20,10 @@ const en = {
 			},
 			flow: {
 				title: 'Flow',
-				desc: 'A free and open-source expense tracker. You can test alpha builds right now. Will be available on Android, iOS, and more. Built /w <><> 🤍.'
+				desc: 'Free and open-source, cross-platform expense tracker prioritizes user experience and privacy. ~2k downloads (April 2025). Built with <><> and love.'
 			},
 			moment_dart: {
-				desc: 'A zero-dependency Dart library for DateTime. Similar popular library would be <> 🕒.'
-			},
-			cuko: {
-				desc: 'A time expenditure tracker. Generates comprehensive time usage reports for later analysis. Additionally offers attendance tracking, planner (wip) for teams'
+				desc: 'A zero-dependency Dart library for DateTime. ~7k downloads/month.'
 			}
 		}
 	},

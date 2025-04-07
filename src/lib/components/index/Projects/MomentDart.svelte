@@ -12,9 +12,6 @@
 	<Spacer />
 	<p class="expand-width left">
 		<WrappedTranslationMulti message={$LL.projects.projects.moment_dart.desc()}>
-			<svelte:fragment slot="1">
-				<XLink href="https://momentjs.com/">moment.js</XLink>
-			</svelte:fragment>
 		</WrappedTranslationMulti>
 	</p>
 	<Spacer />
