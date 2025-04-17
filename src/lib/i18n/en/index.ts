@@ -23,7 +23,7 @@ const en = {
 				desc: 'Free and open-source, cross-platform expense tracker prioritizes user experience and privacy. ~2k downloads (April 2025). Built with <><> and love.'
 			},
 			moment_dart: {
-				desc: 'A zero-dependency Dart library for DateTime. ~7k downloads/month.'
+				desc: 'A zero-dependency Dart library for DateTime. ~8k downloads/month.'
 			}
 		}
 	},
