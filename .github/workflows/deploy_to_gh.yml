@@ -1,5 +1,7 @@
 name: Deploy to GitHub Pages on merge
 "on":
+  schedule:
+    - cron: '0 0 * * *'
   push:
     branches:
       - live
@@ -18,6 +20,7 @@ jobs:
       - run: pnpm install --no-frozen-lockfile
       - name: Deploy using bot
         run: |
+          echo "PUBLIC_BUILD_TIME_MOMENT_DART_DOWNLOAD_COUNT=$(curl -s "https://pub.dev/api/packages/moment_dart/score" | jq '.downloadCount30Days')" >> $GITHUB_ENV
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           pnpm gh-pages-actions
         env:
