@@ -7,28 +7,27 @@
 ## 🧑 About me
 
 📍 Ulaanbaatar, Mongolia <br />
-🧿 ISFP-T <br />
+🧿 INFP-T <br />
 ☕ Iced coffee enjoyer
 
 ## ⚙️ What do I use
 
-* [Flutter](https://flutter.dev/) & [Dart](https://dart.dev/)
-* [Node.js](https://nodejs.org)
-* [TypeScript](https://www.typescriptlang.org/)
-* [NestJS](https://nestjs.com/)
-* [Svelte](https://svelte.dev/) & [SvelteKit](https://kit.svelte.dev/)
-* [Docker](https://www.docker.com/)
+- [Flutter](https://flutter.dev/) & [Dart](https://dart.dev/)
+- [Node.js](https://nodejs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [NestJS](https://nestjs.com/)
+- [Svelte](https://svelte.dev/) & [SvelteKit](https://kit.svelte.dev/)
+- [Docker](https://www.docker.com/)
 
 <!-- ## 💼 My projects
 
 ### Gegee Guitar
 
-A free guitar tab platform where anyone can use & upload tabs. Available on Web, Android, and iOS. See it 
+A free guitar tab platform where anyone can use & upload tabs. Available on Web, Android, and iOS. See it
 
 ### moment_dart
 
 [moment.js](https://momentjs.com/) inspired DateTime manipulation/display library. See it on [pub.dev](https://pub.dev/packages/moment_dart) -->
-
 
 <hr>
 

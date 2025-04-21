@@ -1,9 +1,8 @@
 @font-face {
 	font-family: 'sadespresso-Icons';
-	src:
-	  url('fonts/sadespresso-Icons.ttf?y7rgbb') format('truetype'),
-	  url('fonts/sadespresso-Icons.woff?y7rgbb') format('woff'),
-	  url('fonts/sadespresso-Icons.svg?y7rgbb#sadespresso-Icons') format('svg');
+	src: url('fonts/sadespresso-Icons.ttf?y7rgbb') format('truetype'),
+		url('fonts/sadespresso-Icons.woff?y7rgbb') format('woff'),
+		url('fonts/sadespresso-Icons.svg?y7rgbb#sadespresso-Icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
