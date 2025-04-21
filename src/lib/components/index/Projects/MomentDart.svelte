@@ -4,21 +4,9 @@
 	import Spacer from '$lib/components/Spacer.svelte';
 	import LL from '$lib/i18n/i18n-svelte';
 	import WrappedTranslationMulti from '../../WrappedTranslationMulti.svelte';
-	import { onMount } from 'svelte';
+	import { PUBLIC_BUILD_TIME_MOMENT_DART_DOWNLOAD_COUNT } from '$env/static/public';
 
-	let downloadsCount = 8000;
-
-	onMount(() => {
-		fetch('https://pub.dev/api/packages/moment_dart/score', { mode: 'no-cors' })
-			.then((res) => res.json())
-			.then((data) => {
-				downloadsCount = data.downloadCount30Days;
-			})
-			.catch((err) => {
-				downloadsCount = 8000;
-				console.error('Error fetching downloads count:', err);
-			});
-	});
+	let downloadsCount = parseInt(PUBLIC_BUILD_TIME_MOMENT_DART_DOWNLOAD_COUNT ?? '8700');
 
 	const humanizeCount = (count: number): string => {
 		if (count >= 1e6) {
