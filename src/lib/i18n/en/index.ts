@@ -20,7 +20,7 @@ const en = {
 			},
 			flow: {
 				title: 'Flow',
-				desc: 'Free and open-source, cross-platform expense tracker prioritizes user experience and privacy. ~3k downloads. Built with <><> and love.'
+				desc: 'Free and open-source, cross-platform expense tracker prioritizes user experience and privacy. ~3.5k downloads. Built with <><> and love.'
 			},
 			moment_dart: {
 				desc: 'A zero-dependency Dart library for DateTime. <><> downloads/mo.'
