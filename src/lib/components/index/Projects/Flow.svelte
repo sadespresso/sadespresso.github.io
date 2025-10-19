@@ -28,7 +28,7 @@
 			<Flexbox direction="row" colGap="1rem" rowGap="1rem" expand>
 				<ContactListTile
 					icon="googleplay"
-					href="https://play.google.com/store/apps/details?id=mn.flow.flow?utm_source=sadespresso_web"
+					href="https://play.google.com/store/apps/details?id=mn.flow.flow&utm_source=sadespresso_web"
 					flex="1">
 					<span style="width: 8ch; flex-grow: 1;">Play Store</span>
 				</ContactListTile>
